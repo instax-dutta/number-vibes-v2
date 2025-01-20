@@ -59,7 +59,7 @@ function Hero() {
         transition={{ duration: 0.8 }}
         className="text-5xl md:text-7xl font-bold mb-6"
       >
-        Discover Your Cosmic Destiny
+        Unlock the secrets of numerology and harness the power of Vastu to transform your life and space into a harmonious sanctuary.
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 50 }}
@@ -67,7 +67,7 @@ function Hero() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="text-xl md:text-2xl mb-8 max-w-2xl"
       >
-        Unlock the secrets of numerology and harness the power of Vastu to transform your life and space into a harmonious sanctuary. Let the cosmic energies guide your journey.
+        Let the cosmic energies guide your journey.
       </motion.p>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.6 }}>
         <Link href="/contact">
