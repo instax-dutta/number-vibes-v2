@@ -1,6 +1,8 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import ParticleBackground from "./components/ParticleBackground"
+import { Navbar } from "./components/Navbar"
+import { Footer } from "./components/Footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ParticleBackground />
-        <main className="relative z-10">{children}</main>
+        <Navbar />
+        <main className="relative z-10 pt-16 min-h-screen flex flex-col">{children}</main>
+        <Footer />
       </body>
     </html>
   )
